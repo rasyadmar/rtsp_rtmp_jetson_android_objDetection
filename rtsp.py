@@ -2,7 +2,7 @@ import cv2
 import subprocess as sp
 
 if __name__ == "__main__":
-    rtsp_server = 'rtsp://localhost:8554/cam'  # push server (output server)
+    rtsp_server = 'rtsp://localhost:8554/stream_input'  # push server (output server)
 
     # pull rtsp data, or your cv cap.  (input server)
     cap = cv2.VideoCapture(0)
